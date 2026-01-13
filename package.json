@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write",
-    "cf:build": "npx opennextjs-cloudflare build",
-    "cf:deploy": "npx opennextjs-cloudflare deploy"
+    "cf:build": "npx @opennextjs/cloudflare build",
+    "cf:deploy": "npx @opennextjs/cloudflare deploy"
   },
   "dependencies": {
     "@shikijs/rehype": "^3.21.0",
